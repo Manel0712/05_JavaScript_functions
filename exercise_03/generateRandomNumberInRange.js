@@ -9,7 +9,7 @@
  * @returns number
  */
 
-const generateRandomNumberInRange = function(limit) {
-    return Math.floor(Math.random()*limit)+1;
-}
+const generateRandomNumberInRange = function (limit) {
+  return Math.floor(Math.random() * limit) + 1;
+};
 export default generateRandomNumberInRange;
