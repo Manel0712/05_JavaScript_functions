@@ -6,3 +6,23 @@
  * input: boolean (type)
  * output:
  */
+/**
+ * @param {string | number | boolean | array} value
+ * @param {boolean} type
+ * @returns {boolean} 
+ */
+function isTypeOf(value, type) {
+  switch (type) {
+    case "string":
+      return typeof value === "string";
+    case "number":
+      return typeof value === "number";
+    case "boolean":
+      return typeof value === "boolean";
+    case "array":
+      return Array.isArray(value);
+    default:
+      return false; // Unknown type
+  }
+}
+export default isTypeOf;
