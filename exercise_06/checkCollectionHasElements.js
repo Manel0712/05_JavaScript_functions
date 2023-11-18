@@ -8,11 +8,11 @@
  * @param {Array} collection
  * @returns boolean
  */
-const checkCollectionHasElements = function(collection) {
-    let Message = true;
-    if (collection.length>0) {
-        Message = false;
-    }
-    return Message;
-}
+const checkCollectionHasElements = function (collection) {
+  let Message = true;
+  if (collection.length > 0) {
+    Message = false;
+  }
+  return Message;
+};
 export default checkCollectionHasElements;

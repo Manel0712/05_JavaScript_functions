@@ -11,11 +11,11 @@
  * @returns boolean
  */
 
-const isGreaterThan = function(value, threshold) {
-    let Message = false;
-    if (value>threshold) {
-        Message = true;
-    }
-    return Message;
-}
+const isGreaterThan = function (value, threshold) {
+  let Message = false;
+  if (value > threshold) {
+    Message = true;
+  }
+  return Message;
+};
 export default isGreaterThan;

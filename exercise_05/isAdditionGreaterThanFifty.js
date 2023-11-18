@@ -10,11 +10,11 @@
  * @param {number} summand2
  * @returns boolean
  */
-const isAdditionGreaterThanFifty = function(summand1, summand2) {
-    let Message = false;
-    if (summand1+summand2>=50) {
-        Message = true;
-    }
-    return Message;
-}
+const isAdditionGreaterThanFifty = function (summand1, summand2) {
+  let Message = false;
+  if (summand1 + summand2 >= 50) {
+    Message = true;
+  }
+  return Message;
+};
 export default isAdditionGreaterThanFifty;

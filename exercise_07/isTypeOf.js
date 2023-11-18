@@ -9,7 +9,7 @@
 /**
  * @param {string | number | boolean | array} value
  * @param {boolean} type
- * @returns {boolean} 
+ * @returns {boolean}
  */
 function isTypeOf(value, type) {
   switch (type) {
