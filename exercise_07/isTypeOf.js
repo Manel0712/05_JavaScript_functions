@@ -8,7 +8,7 @@
  */
 /**
  * @param {string | number | boolean | array} value
- * @param {boolean} type
+ * @param {string | number | boolean | array} type
  * @returns {boolean}
  */
 function isTypeOf(value, type) {
