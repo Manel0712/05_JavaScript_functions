@@ -12,17 +12,16 @@
  * @returns {boolean}
  */
 function isTypeOf(value, type) {
-  switch (type) {
-    case "string":
-      return typeof value === "string";
-    case "number":
-      return typeof value === "number";
-    case "boolean":
-      return typeof value === "boolean";
-    case "array":
-      return Array.isArray(value);
-    default:
-      return false; // Unknown type
+  let result = Array.isArray(value);
+  if (type === "string") {
+    result = typeof value === "string";
   }
+  if (type === "number") {
+    result = typeof value === "number";
+  }
+  if (type === "boolean") {
+    result = typeof value === "boolean";
+  }
+  return result;
 }
 export default isTypeOf;

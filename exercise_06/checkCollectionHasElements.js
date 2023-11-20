@@ -10,7 +10,7 @@
  */
 const checkCollectionHasElements = function (collection) {
   let Message = true;
-  if (collection.length > 0) {
+  if (collection.length > 0 == true) {
     Message = false;
   }
   return Message;

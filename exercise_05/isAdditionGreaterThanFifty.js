@@ -12,7 +12,7 @@
  */
 const isAdditionGreaterThanFifty = function (summand1, summand2) {
   let Message = false;
-  if (summand1 + summand2 >= 50) {
+  if (summand1 + summand2 >= 50 == true) {
     Message = true;
   }
   return Message;
