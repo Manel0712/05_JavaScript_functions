@@ -27,7 +27,7 @@ import checkCollectionHasElements from "../exercise_06/checkCollectionHasElement
 const transformCollectionToString = function (collection) {
   const arrayLength = checkCollectionHasElements(collection);
   let message = "";
-  if (arrayLength === false) {
+  if (arrayLength === true) {
     message = collection.join(" | ");
   }
   return message;
