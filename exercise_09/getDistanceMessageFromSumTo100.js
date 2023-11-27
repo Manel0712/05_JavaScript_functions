@@ -1,5 +1,5 @@
 import generateRandomNumberInRange from "../exercise_03/generateRandomNumberInRange.js";
-import getDistanceFromThreshold from '../exercise_01/getDistanceFromThreshold.js';
+import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js";
 import isGreaterThan from "../exercise_04/isGreaterThan.js";
 
 /** 

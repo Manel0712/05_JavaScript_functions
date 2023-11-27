@@ -31,9 +31,9 @@ const formatStringByWordsLength = function (sentence) {
   const numberWords = getTotalWordsFromString(sentence);
   let Message = sentence.toLowerCase();
   if (isGreaterThan(numberWords, 5)) {
-   Message = sentence.toUpperCase()
+    Message = sentence.toUpperCase();
   }
   return Message;
-}
+};
 
 export default formatStringByWordsLength;
