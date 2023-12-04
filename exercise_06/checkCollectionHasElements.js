@@ -9,10 +9,6 @@
  * @returns boolean
  */
 const checkCollectionHasElements = function (collection) {
-  let Message = true;
-  if (collection.length > 0 == true) {
-    Message = false;
-  }
-  return Message;
+  return Array.isArray(collection) && collection.length > 0;
 };
 export default checkCollectionHasElements;
